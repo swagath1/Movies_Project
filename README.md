@@ -16,10 +16,10 @@ An end-to-end data analytics project using Python to engineer data pipelines, pe
 
 ---
 
-## 🚀 Key Business Insights Discovered
-* **The Revenue Driver:** Financial budget scaling exhibits a massive, predictable linear relationship with gross returns ($R^2$ verified via statistical regression). 
-* **The ROI Myth:** While massive production studios control the absolute budget volume, nimble independent films routinely secure dramatically higher ROI multipliers on tightly constrained budgets.
-* **Feature Interactions:** The automated heatmap reveals a strong positive correlation (0.63) between public engagement/voting activity and gross financial performance, suggesting that early audience traction is a critical leading indicator for executive forecasting.
+## 📊 Key Business Insights Discovered
+* **The Profit Engine:** Gross revenue has an incredibly strong positive correlation of **0.98** with net profit, proving that scaling absolute box office volume is the primary driver of net returns in this dataset.
+* **The Budget Predictor:** Production budget shows a high positive correlation of **0.75** with gross revenue, validating that higher financial backing heavily correlates with higher box office returns.
+* **Audience Engagement:** Public engagement via user voting (**votes**) shows a strong correlation of **0.63** with gross revenue, suggesting that widespread audience traction is a strong indicator of financial success.
 
 ---
 

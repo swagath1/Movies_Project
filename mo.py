@@ -12,10 +12,22 @@ st.markdown("This app displays key movie metrics and correlation analysis from y
 # 2. Load the Local Data
 @st.cache_data
 def load_data():
-    # Looks for the CSV in the exact same folder as this script
+    # Reads the file directly from the GitHub repository folder
     df = pd.read_csv("cleaned_movies.csv")
+    
+    # Ensure all column name lookups are lowercase to avoid casing mismatch errors
+    df.columns = df.columns.str.lower()
+    
+    # DYNAMIC CALCULATION: Creates roi and profit columns if they are missing!
+    if 'budget' in df.columns and 'gross' in df.columns:
+        df['budget'] = pd.to_numeric(df['budget'], errors='coerce').fillna(0)
+        df['gross'] = pd.to_numeric(df['gross'], errors='coerce').fillna(0)
+        
+        # Calculate Profit and ROI safely
+        df['profit'] = df['gross'] - df['budget']
+        df['roi'] = df.apply(lambda row: row['gross'] / row['budget'] if row['budget'] > 0 else 0, axis=1)
+        
     return df
-
 try:
     df = load_data()
     

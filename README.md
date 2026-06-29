@@ -1,6 +1,6 @@
 # 🎬 Ultimate Movie Industry Market Dashboard
 
- 👉 **[Click Here to View the Live Interactive Dashboard!](https://moviesproject-vgw8h3k26mdfkw7afsjvwp.streamlit.app)**
+ 👉 **[Click Here to View the Live Interactive Dashboard!]( moviesproject-vgw8h3k26mdfkw7afsjvwp.streamlit.app)**
 
 An end-to-end data analytics project using Python to engineer data pipelines, perform exploratory analysis, and deploy an interactive web-based business intelligence dashboard examining the market forces behind film industry profitability.
 

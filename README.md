@@ -7,7 +7,12 @@ An end-to-end data analytics project using Python to engineer data pipelines, pe
 ---
 
 ## 📊 Dashboard Preview
-![Movie Market Analysis Dashboard Preview](dashboard_preview.png)
+
+### 📈 Market Trends & Interactions
+![Movie Market Analysis Dashboard Preview 1](Dashboard%20Preview.png)
+
+### 👑 Industry Leaderboards
+![Movie Market Analysis Dashboard Preview 2](Dashboard%20Preview1.png)
 
 ---
 
